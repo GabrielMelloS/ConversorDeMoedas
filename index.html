@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+
+  <h1 class="page-title">
+    Conversor de moedas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em Real R$
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+  <p class="page-subtitle">
+    💱Realize a conversão de Real para diversas outras💱
+  </p>
+  <div class="calc">
+    <input type="number" id="valor" size="2" placeholder="Insira o valor" /><br>
+
+    <button type="submit" onclick="converterDolar()"><img src="https://cssdeck.com/blog/wp-content/uploads/2008/06/us-flag.gif" height="12" width="16" />
+      USD</button>
+
+    <button type="submit" onclick="converterEuro()"><img src="https://images.all-free-download.com/images/graphiclarge/eu_flag_clip_art_14070.jpg" height="12" width="16" /> EUR</button>
+
+    <button type="submit" onclick="converterLibra()"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" height="12" width="16" /> GBP</button>
+
+    <br>
+
+    <button type="submit" onclick="converterIene()"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Flag_of_Japan_%28with_border%29.png/640px-Flag_of_Japan_%28with_border%29.png" height="12" width="16" /> JPY</button>
+
+    <button type="submit" onclick="converterFranco()"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/2048px-Flag_of_Switzerland.svg.png" height="12" width="16" /> CHF</button>
+
+    <button type="submit" onclick="converterBitcoin()"><img src="https://cdn.dribbble.com/users/2140/screenshots/3814090/media/7a00f39e4ec90d8bc3806de6c1b630d6.png?compress=1&resize=800x600&vertical=top" height="12" width="16" /> BTC</button>
+    <h2 id="valorConvertido"></h2>
+  </div>
+</div>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
